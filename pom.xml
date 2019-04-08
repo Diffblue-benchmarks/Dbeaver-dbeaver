@@ -29,19 +29,17 @@
 
     <modules>
         <module>bundles</module>
-        <module>plugins</module>
+        <!-- <module>plugins</module>
         <module>features</module>
 
-        <!-- Products -->
         <module>product/standalone</module>
         <module>product/repositories</module>
 
-        <!-- Tests -->
-        <module>test</module>
+        <module>test</module> -->
 
     </modules>
 
-    <repositories>
+    <!-- <repositories>
         <repository>
             <id>eclipse-p2-repo</id>
             <url>${eclipse-p2-repo.url}</url>
@@ -57,7 +55,7 @@
             <url>${local-p2-repo.url}</url>
             <layout>p2</layout>
         </repository>
-    </repositories>
+    </repositories> -->
 
     <build>
         <sourceDirectory>${project.basedir}/src</sourceDirectory>
@@ -65,7 +63,7 @@
         <plugins>
 
 
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>2.6</version>
@@ -73,7 +71,7 @@
                     <resources>
                     </resources>
                 </configuration>
-            </plugin>
+            </plugin> -->
             <!-- Tycho target platform -->
 <!--
             <plugin>
@@ -93,12 +91,12 @@
 -->
 
             <!-- Tycho build -->
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.eclipse.tycho</groupId>
                 <artifactId>target-platform-configuration</artifactId>
                 <version>${tycho-version}</version>
                 <configuration>
-                    <environments>
+                    <environments> -->
 <!--
                         <environment>
                             <os>win32</os>
@@ -106,11 +104,11 @@
                             <arch>x86</arch>
                         </environment>
 -->
-                        <environment>
+                        <!-- <environment>
                             <os>win32</os>
                             <ws>win32</ws>
                             <arch>x86_64</arch>
-                        </environment>
+                        </environment> -->
 <!--
                         <environment>
                             <os>linux</os>
@@ -118,7 +116,7 @@
                             <arch>x86</arch>
                         </environment>
 -->
-                        <environment>
+                        <!-- <environment>
                             <os>linux</os>
                             <ws>gtk</ws>
                             <arch>x86_64</arch>
@@ -130,7 +128,7 @@
                         </environment>
                     </environments>
                 </configuration>
-            </plugin>
+            </plugin> -->
 
             <plugin>
                 <groupId>org.eclipse.tycho</groupId>
@@ -139,7 +137,7 @@
                 <extensions>true</extensions>
             </plugin>
 
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.eclipse.tycho</groupId>
                 <artifactId>tycho-compiler-plugin</artifactId>
                 <version>${tycho-version}</version>
@@ -149,10 +147,10 @@
                     <target>1.8</target>
                     <compilerArgument>-warn:+discouraged,forbidden</compilerArgument>
                 </configuration>
-            </plugin>
+            </plugin> -->
 
             <!-- Set Built-By info -->
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.eclipse.tycho</groupId>
                 <artifactId>tycho-packaging-plugin</artifactId>
                 <version>${tycho-version}</version>
@@ -166,7 +164,7 @@
                         <addMavenDescriptor>false</addMavenDescriptor>
                     </archive>
                 </configuration>
-            </plugin>
+            </plugin> -->
 
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -191,7 +189,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.5</version>
+                <version>3.0.0-M3</version>
+                <configuration>
+                  <systemPropertyVariables>
+                      <jacoco-agent.destfile>${project.build.directory}/jacoco.exec</jacoco-agent.destfile>
+                  </systemPropertyVariables>
+                  <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
                 <executions>
                     <execution>
                         <id>test</id>
@@ -206,6 +210,28 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+
+            <plugin>
+              <groupId>org.jacoco</groupId>
+              <artifactId>jacoco-maven-plugin</artifactId>
+              <version>0.8.3</version>
+              <executions>
+                <execution>
+                  <id>instrument</id>
+                  <phase>process-test-classes</phase>
+                  <goals>
+                    <goal>instrument</goal>
+                  </goals>
+                </execution>
+                <execution>
+                  <id>restore-instrumented-classes</id>
+                  <phase>test</phase>
+                  <goals>
+                    <goal>restore-instrumented-classes</goal>
+                  </goals>
+                </execution>
+              </executions>
             </plugin>
 
             <!-- Surefire -->
@@ -312,6 +338,13 @@
           <artifactId>powermock-module-junit4</artifactId>
           <version>1.6.6</version>
           <scope>test</scope>
+        </dependency>
+        <dependency>
+          <groupId>org.jacoco</groupId>
+          <artifactId>org.jacoco.agent</artifactId>
+          <version>0.8.3</version>
+          <scope>test</scope>
+          <classifier>runtime</classifier>
         </dependency>
     </dependencies>
 

@@ -14,7 +14,7 @@
 
     <modules>
         <module>org.jkiss.utils</module>
-        <module>org.jkiss.wmi</module>
+        <!-- <module>org.jkiss.wmi</module> -->
     </modules>
 
 </project>
