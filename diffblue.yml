@@ -174,3 +174,3101 @@ phases:
       cover-function-only: false
       # instrument the file as opposed to the function only
       cover-only: file
+units:
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPNativeClientLocation.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPNativeClientLocation.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/AbstractJob.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/AbstractJob.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DefaultProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DefaultProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$MonitoringTask.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/DBObjectNameCaseTransformer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/DBObjectNameCaseTransformer.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPIdentifierCase.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPIdentifierCase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObjectContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObjectContainer.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/DBObjectNameCaseTransformer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/DBObjectNameCaseTransformer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDPseudoAttribute.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDPseudoAttribute.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/runtime/DBWorkbench.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/runtime/DBWorkbench.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPQualifiedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPQualifiedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityAttributeRef.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityAttributeRef.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSTable.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSTable.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/virtual/DBVUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/virtual/DBVUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/app/ApplicationDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/app/ApplicationDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDAttributeTransformer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDAttributeTransformer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/virtual/DBVObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/virtual/DBVObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntity.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntity.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSAttributeBase.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSAttributeBase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPHiddenObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPHiddenObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSInstance.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/app/ApplicationRegistry.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/app/ApplicationRegistry.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSTableForeignKeyColumn.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSTableForeignKeyColumn.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/DBException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/DBException.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDAttributeTransformerDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDAttributeTransformerDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/app/DBPDataSourceRegistry.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/app/DBPDataSourceRegistry.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/virtual/DBVTransformSettings.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/virtual/DBVTransformSettings.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPInheritedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPInheritedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/virtual/DBVContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/virtual/DBVContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/virtual/DBVEntity.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/virtual/DBVEntity.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSAlias.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSAlias.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObjectSelector.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObjectSelector.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValue.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValue.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDRegistry.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDRegistry.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDAttributeBindingMeta.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDAttributeBindingMeta.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSTypedObjectEx.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSTypedObjectEx.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSDataContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSDataContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCQueryTransformer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCQueryTransformer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDPseudoAttributeContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDPseudoAttributeContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCLogicalOperator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCLogicalOperator.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSDataType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSDataType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCExecutionSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCExecutionSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValueHandler.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValueHandler.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLQuery.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLQuery.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDContent.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDContent.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPDriver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPDriver.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityConstraintType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityConstraintType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityConstraint.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityConstraint.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCResultSet.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCResultSet.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPEvent.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPEvent.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLSelectItem.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLSelectItem.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityAssociation.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityAssociation.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDAttributeBindingType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDAttributeBindingType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDAttributeBinding.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDAttributeBinding.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/Pair.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/Pair.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityReferrer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityReferrer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceInfo.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceInfo.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPIdentifierCase.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPIdentifierCase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLQuery$SingleTableMeta.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLQuery.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSWrapper.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSWrapper.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils$IVariableResolver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSTypedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSTypedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCEntityMetaData.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCEntityMetaData.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/app/DBPPlatform.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/app/DBPPlatform.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCQueryTransformProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCQueryTransformProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCResultSetMetaData.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCResultSetMetaData.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataTypeProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataTypeProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/virtual/DBVModel.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/virtual/DBVModel.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSTableIndexColumn.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSTableIndexColumn.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSTableIndex.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSTableIndex.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValueHandlerProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValueHandlerProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPEvaluationContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPEvaluationContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDAttributeBindingNested.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDAttributeBindingNested.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPUniqueObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPUniqueObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDPreferences.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDPreferences.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCAttributeMetaData.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCAttributeMetaData.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityAttribute.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityAttribute.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPNamedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPNamedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/bundle/ModelActivator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/bundle/ModelActivator.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCTransactionManager.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCTransactionManager.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/virtual/DBVEntityAttribute.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/virtual/DBVEntityAttribute.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCStatementType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCStatementType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPObject.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSManipulationType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSManipulationType.java
+ - target:
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap$EntryIterator.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap$LongEntry.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap$KeyIterator.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap$KeySet.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap$Values.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap$HashIterator.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap$EntrySet.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap$ValueIterator.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+ - target:
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ext.vertica/target/classes
+     file: org/jkiss/dbeaver/ext/vertica/model/VerticaDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.vertica/src
+     sourceFile: org/jkiss/dbeaver/ext/vertica/model/VerticaDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.vertica/target/classes
+     file: org/jkiss/dbeaver/ext/vertica/model/VerticaSQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.vertica/src
+     sourceFile: org/jkiss/dbeaver/ext/vertica/model/VerticaSQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPUniqueObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPUniqueObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$MonitoringTask.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPDriver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPDriver.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCRemoteInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCRemoteInstance.java
+   - dir: plugins/org.jkiss.dbeaver.ext.generic/target/classes
+     file: org/jkiss/dbeaver/ext/generic/model/GenericDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.generic/src
+     sourceFile: org/jkiss/dbeaver/ext/generic/model/GenericDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/BaseDataSourceInfo.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/BaseDataSourceInfo.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/qm/QMUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/qm/QMUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.vertica/target/classes
+     file: org/jkiss/dbeaver/ext/vertica/model/VerticaDataSource$NodeCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.vertica/src
+     sourceFile: org/jkiss/dbeaver/ext/vertica/model/VerticaDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/sql/BasicSQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/sql/BasicSQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/cache/JDBCObjectCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/cache/JDBCObjectCache.java
+   - dir: plugins/org.jkiss.dbeaver.ext.generic/target/classes
+     file: org/jkiss/dbeaver/ext/generic/model/GenericDataSource$TableTypeCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.generic/src
+     sourceFile: org/jkiss/dbeaver/ext/generic/model/GenericDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/app/DBPPlatform.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/app/DBPPlatform.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSourceInfo.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSourceInfo.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/net/DBWHandlerConfiguration.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/net/DBWHandlerConfiguration.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCException.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSInstance.java
+   - dir: plugins/org.jkiss.dbeaver.ext.generic/target/classes
+     file: org/jkiss/dbeaver/ext/generic/model/GenericDataTypeCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.generic/src
+     sourceFile: org/jkiss/dbeaver/ext/generic/model/GenericDataTypeCache.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/qm/QMExecutionHandler.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/qm/QMExecutionHandler.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBExecUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBExecUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.generic/target/classes
+     file: org/jkiss/dbeaver/ext/generic/model/meta/GenericMetaModel.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.generic/src
+     sourceFile: org/jkiss/dbeaver/ext/generic/model/meta/GenericMetaModel.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/cache/JDBCBasicDataTypeCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/cache/JDBCBasicDataTypeCache.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCFactoryDefault.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCFactoryDefault.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractObjectCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractObjectCache.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPConnectionBootstrap.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPConnectionBootstrap.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCConnectionImpl.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCConnectionImpl.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCConnectException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCConnectException.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCSQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCSQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/AbstractJob.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/AbstractJob.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.ext.generic/target/classes
+     file: org/jkiss/dbeaver/ext/generic/model/GenericSQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.generic/src
+     sourceFile: org/jkiss/dbeaver/ext/generic/model/GenericSQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/DBException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/DBException.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/time/ExtendedDateFormat.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/time/ExtendedDateFormat.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/qm/QMController.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/qm/QMController.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractObjectCache$CacheIterator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractObjectCache.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils$IVariableResolver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/runtime/net/GlobalProxyAuthenticator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/runtime/net/GlobalProxyAuthenticator.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/Pair.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/Pair.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/net/DBWHandlerDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/net/DBWHandlerDescriptor.java
+ - target:
+   - dir: bundles/org.jkiss.wmi/target/classes
+     file: org/jkiss/wmi/service/WMIObjectAttribute.class
+     sourceDir: bundles/org.jkiss.wmi/src/java
+     sourceFile: org/jkiss/wmi/service/WMIObjectAttribute.java
+   - dir: bundles/org.jkiss.wmi/target/classes
+     file: org/jkiss/wmi/service/WMIQualifiedObject.class
+     sourceDir: bundles/org.jkiss.wmi/src/java
+     sourceFile: org/jkiss/wmi/service/WMIQualifiedObject.java
+   - dir: bundles/org.jkiss.wmi/target/classes
+     file: org/jkiss/wmi/service/WMIObjectElement.class
+     sourceDir: bundles/org.jkiss.wmi/src/java
+     sourceFile: org/jkiss/wmi/service/WMIObjectElement.java
+   - dir: bundles/org.jkiss.wmi/target/classes
+     file: org/jkiss/wmi/service/WMIObject.class
+     sourceDir: bundles/org.jkiss.wmi/src/java
+     sourceFile: org/jkiss/wmi/service/WMIObject.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.sql/target/classes
+     file: org/jkiss/dbeaver/ui/editors/sql/util/SQLWordFinder.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.sql/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/sql/util/SQLWordFinder.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/app/ApplicationDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/app/ApplicationDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/app/ApplicationRegistry.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/app/ApplicationRegistry.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/bundle/ModelActivator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/bundle/ModelActivator.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils$IVariableResolver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/Base64.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/Base64.java
+ - target:
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IntKeyMap.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IntKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IntKeyMap$HashIterator.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IntKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IntKeyMap$EntryIterator.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IntKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IntKeyMap$ValueIterator.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IntKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IntKeyMap$Values.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IntKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IntKeyMap$KeySet.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IntKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IntKeyMap$IntEntry.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IntKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IntKeyMap$KeyIterator.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IntKeyMap.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IntKeyMap$EntrySet.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IntKeyMap.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/json/JSONUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/json/JSONUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/PostgreUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/PostgreUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/struct/AbstractProcedure.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/struct/AbstractProcedure.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCConnectException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCConnectException.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilege$ObjectPermission.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilege.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/edit/PostgreViewManager.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/edit/PostgreViewManager.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/edit/SQLDatabasePersistActionComment.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/edit/SQLDatabasePersistActionComment.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreTypeStorage.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreTypeStorage.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValueHandlerProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValueHandlerProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCException.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/struct/AbstractAttribute.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/struct/AbstractAttribute.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreProcedureParameter.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreProcedureParameter.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDRegistry.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDRegistry.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/edit/DBERegistry.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/edit/DBERegistry.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPConnectionBootstrap.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPConnectionBootstrap.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreClass$RelKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreClass.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/struct/AbstractTable.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/struct/AbstractTable.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreTypeType.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreTypeType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSInstance.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreTypeCategory.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreTypeCategory.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreServerExtension.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreServerExtension.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/runtime/net/GlobalProxyAuthenticator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/runtime/net/GlobalProxyAuthenticator.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPDriver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPDriver.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreProcedureKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreProcedureKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCStatement.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/impls/PostgreServerTypeRegistry.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/impls/PostgreServerTypeRegistry.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/impls/PostgreServerPostgreSQL.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/impls/PostgreServerPostgreSQL.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCPreparedStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCPreparedStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$MonitoringTask.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCConnectionImpl.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCConnectionImpl.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPUniqueObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPUniqueObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils$IVariableResolver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilegeType.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilegeType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSDataType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSDataType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/net/DBWHandlerDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/net/DBWHandlerDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDPreferences.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDPreferences.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/impls/PostgreServerType.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/impls/PostgreServerType.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap$LongEntry.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreSchema.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreSchema.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractObjectCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractObjectCache.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSTypedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSTypedObject.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreDataTypeCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreDataTypeCache.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/struct/JDBCDataType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/struct/JDBCDataType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBExecUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBExecUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCRemoteInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCRemoteInstance.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreRolePrivilege.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreRolePrivilege.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractObjectCache$CacheIterator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractObjectCache.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilegeGrant.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilegeGrant.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreDatabase.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreDatabase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/edit/SQLDatabasePersistAction.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/edit/SQLDatabasePersistAction.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreAttribute.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreAttribute.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreViewBase.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreViewBase.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilegeOwner.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilegeOwner.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/LongKeyMap.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/LongKeyMap.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/cache/JDBCObjectCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/cache/JDBCObjectCache.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreDataType.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreDataType.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreProcedure.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreProcedure.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/net/DBWHandlerConfiguration.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/net/DBWHandlerConfiguration.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/qm/QMExecutionHandler.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/qm/QMExecutionHandler.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSTypedObjectEx.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSTypedObjectEx.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/app/DBPPlatform.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/app/DBPPlatform.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/qm/QMUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/qm/QMUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceProvider.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreDataType$AttributeCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreDataType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/edit/PostgreCommandGrantPrivilege.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/edit/PostgreCommandGrantPrivilege.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreRole.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreRole.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreTableBase.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreTableBase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/impls/PostgreServerExtensionBase.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/impls/PostgreServerExtensionBase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractDescriptor$ObjectType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/DBException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/DBException.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/AbstractJob.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/AbstractJob.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValueHandler.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValueHandler.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPQualifiedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPQualifiedObject.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreObjectPrivilege.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreObjectPrivilege.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/qm/QMController.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/qm/QMController.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgreTypeAlign.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgreTypeAlign.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPNamedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPNamedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.postgresql/target/classes
+     file: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilege.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.postgresql/src
+     sourceFile: org/jkiss/dbeaver/ext/postgresql/model/PostgrePrivilege.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/struct/JDBCTableColumn.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/struct/JDBCTableColumn.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBIcon.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBIcon.java
+   - dir: plugins/org.jkiss.dbeaver.ext.generic/target/classes
+     file: org/jkiss/dbeaver/ext/generic/model/GenericStructContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.generic/src
+     sourceFile: org/jkiss/dbeaver/ext/generic/model/GenericStructContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/edit/DBECommandAbstract.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/edit/DBECommandAbstract.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSActionTiming.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSActionTiming.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/model/SQLServerDataType.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/model/SQLServerDataType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSDataType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSDataType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSAttributeBase.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSAttributeBase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSTypedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSTypedObject.java
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/model/SQLServerDatabase.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/model/SQLServerDatabase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSWrapper.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSWrapper.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/cache/JDBCObjectCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/cache/JDBCObjectCache.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPEvaluationContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPEvaluationContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSInstance.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/DBException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/DBException.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCLogicalOperator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCLogicalOperator.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPQualifiedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPQualifiedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/model/SQLServerSchema.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/model/SQLServerSchema.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPNamedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPNamedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPUniqueObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPUniqueObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractObjectCache$CacheIterator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractObjectCache.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractObjectCache.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractObjectCache.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/model/SQLServerDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/model/SQLServerDataSource.java
+ - target:
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ByteNumberFormat.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ByteNumberFormat.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.data/target/classes
+     file: org/jkiss/dbeaver/ui/controls/lightgrid/GridRowRenderer.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.data/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/lightgrid/GridRowRenderer.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.data/target/classes
+     file: org/jkiss/dbeaver/ui/controls/lightgrid/AbstractRenderer.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.data/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/lightgrid/AbstractRenderer.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/OverlayImageDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/OverlayImageDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.data/target/classes
+     file: org/jkiss/dbeaver/ui/controls/lightgrid/IGridLabelProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.data/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/lightgrid/IGridLabelProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPImage.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPImage.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UITextUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UITextUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBIconBinary.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBIconBinary.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.data/target/classes
+     file: org/jkiss/dbeaver/ui/controls/lightgrid/LightGrid.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.data/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/lightgrid/LightGrid.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBIconComposite.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBIconComposite.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBeaverIcons.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBeaverIcons.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/OverlayImageDescriptorLegacy.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/OverlayImageDescriptorLegacy.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBeaverIcons$IconDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBeaverIcons.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UITextUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UITextUtils.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/AbstractJob.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/AbstractJob.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCPreparedStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCPreparedStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$MonitoringTask.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataTypeProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataTypeProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObjectFilter.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObjectFilter.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSForeignKeyModifyRule.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSForeignKeyModifyRule.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceTask.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceTask.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UIUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UIUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/controls/CustomSashForm.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/CustomSashForm.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/controls/AdvancedTextCellEditor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/AdvancedTextCellEditor.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/AbstractUIJob.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/AbstractUIJob.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/controls/CustomSashForm$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/CustomSashForm.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/runtime/DBWorkbench.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/runtime/DBWorkbench.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPConnectionType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPConnectionType.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UIUtils$3.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UIUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/SharedTextColors.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/SharedTextColors.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBeaverIcons.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBeaverIcons.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/AbstractJob.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/AbstractJob.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UIUtils$4.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UIUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/controls/CustomTextCellEditor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/CustomTextCellEditor.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/OverlayImageDescriptorLegacy.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/OverlayImageDescriptorLegacy.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UITask.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UITask.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBIconBinary.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBIconBinary.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/meta/IPropertyValueListProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/meta/IPropertyValueListProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBIconComposite.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBIconComposite.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UIUtils$2.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UIUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/meta/Property.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/meta/Property.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPropertyDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPropertyDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPropertySource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPropertySource.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/controls/CustomSashForm$2.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/CustomSashForm.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UIUtils$5.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UIUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/runtime/properties/ObjectPropertyDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/runtime/properties/ObjectPropertyDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/controls/CustomNumberCellEditor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/CustomNumberCellEditor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/RunnableWithResult.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/RunnableWithResult.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/SharedTextColors$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/SharedTextColors.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UIConfirmation.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UIConfirmation.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/BeanUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/BeanUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DefaultProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DefaultProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/runtime/ui/DBPPlatformUI.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/runtime/ui/DBPPlatformUI.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/OverlayImageDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/OverlayImageDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/internal/UIActivator.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/internal/UIActivator.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPImage.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPImage.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/SharedFonts.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/SharedFonts.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBeaverIcons$IconDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBeaverIcons.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPNamedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPNamedObject.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/runtime/RunnableContextDelegate.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/runtime/RunnableContextDelegate.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRRunnableContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRRunnableContext.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UIUtils$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UIUtils.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/controls/CustomCheckboxCellEditor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/CustomCheckboxCellEditor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/controls/CustomComboBoxCellEditor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/CustomComboBoxCellEditor.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UIUtils$6.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UIUtils.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/BinaryTextFinder.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/BinaryTextFinder.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$ControlVerifyKeyAdapter.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$9.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/pref/HexPreferencesPage.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/pref/HexPreferencesPage.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/DisplayedContent.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/DisplayedContent.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexManager.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexManager.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$8.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$4.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/app/DBPPlatform.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/app/DBPPlatform.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/ContentUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/ContentUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$5.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$6.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/BinaryClipboard$MemoryByteArrayTransfer.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/BinaryClipboard.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/BinaryContent$ModifyListener.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/BinaryContent.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexManager$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexManager.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/BinaryContent.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/BinaryContent.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UIUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UIUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$ControlMouseAdapter.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$ControlPaintAdapter.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/BinaryClipboard$FileByteArrayTransfer.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/BinaryClipboard.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$2.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$ControlSelectionAdapter.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/BinaryClipboard.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/BinaryClipboard.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/ActionHistory.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/ActionHistory.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/runtime/DBWorkbench.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/runtime/DBWorkbench.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/BinaryContent$Range.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/BinaryContent.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$ControlKeyAdapter.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$3.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$7.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.hex/target/classes
+     file: org/jkiss/dbeaver/ui/editors/binary/HexEditControl$ControlTraverseAdapter.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.hex/src
+     sourceFile: org/jkiss/dbeaver/ui/editors/binary/HexEditControl.java
+ - target:
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/BeanUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/BeanUtils.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.data/target/classes
+     file: org/jkiss/dbeaver/ui/controls/lightgrid/GridCellRenderer.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.data/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/lightgrid/GridCellRenderer.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/UITextUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/UITextUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.data/target/classes
+     file: org/jkiss/dbeaver/ui/controls/lightgrid/LightGrid.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.data/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/lightgrid/LightGrid.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBeaverIcons.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBeaverIcons.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/OverlayImageDescriptorLegacy.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/OverlayImageDescriptorLegacy.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.data/target/classes
+     file: org/jkiss/dbeaver/ui/controls/lightgrid/AbstractRenderer.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.data/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/lightgrid/AbstractRenderer.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/OverlayImageDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/OverlayImageDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.data/target/classes
+     file: org/jkiss/dbeaver/ui/controls/lightgrid/IGridScrollBar.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.data/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/lightgrid/IGridScrollBar.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPImage.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPImage.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBIconBinary.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBIconBinary.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBIconComposite.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBIconComposite.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBeaverIcons$IconDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBeaverIcons.java
+ - target:
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/Base64.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/Base64.java
+ - target:
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/xml/XMLUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/xml/XMLUtils.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/xml/XMLException.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/xml/XMLException.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ext.vertica/target/classes
+     file: org/jkiss/dbeaver/ext/vertica/VerticaUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.vertica/src
+     sourceFile: org/jkiss/dbeaver/ext/vertica/VerticaUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCPreparedStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCPreparedStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSInstance.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.java
+   - dir: plugins/org.jkiss.dbeaver.ext.generic/target/classes
+     file: org/jkiss/dbeaver/ext/generic/model/GenericDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.generic/src
+     sourceFile: org/jkiss/dbeaver/ext/generic/model/GenericDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPQualifiedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPQualifiedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/DBException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/DBException.java
+ - target:
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCRemoteInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCRemoteInstance.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPErrorAssistant$ErrorPosition.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPErrorAssistant.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPConnectionBootstrap.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPConnectionBootstrap.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/sql/BasicSQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/sql/BasicSQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCException.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSInstance.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/runtime/net/GlobalProxyAuthenticator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/runtime/net/GlobalProxyAuthenticator.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPDriver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPDriver.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCFactoryDefault.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCFactoryDefault.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCFactory.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCFactory.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceInfo.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceInfo.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/net/DBWHandlerConfiguration.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/net/DBWHandlerConfiguration.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCConnectionImpl.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCConnectionImpl.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCSQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCSQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/DBException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/DBException.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/net/DBWHandlerDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/net/DBWHandlerDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCQueryTransformer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCQueryTransformer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDDataFormatterProfile.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDDataFormatterProfile.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/AbstractJob.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/AbstractJob.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils$MonitoringTask.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLState.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLState.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSDataType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSDataType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCTransactionIsolation.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCTransactionIsolation.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/BaseDataSourceInfo.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/BaseDataSourceInfo.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/qm/QMUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/qm/QMUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/app/DBPPlatform.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/app/DBPPlatform.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSourceInfo.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSourceInfo.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/qm/QMExecutionHandler.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/qm/QMExecutionHandler.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBExecUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBExecUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils$IVariableResolver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/AbstractExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/AbstractExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCExecutionPurpose.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCExecutionPurpose.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPErrorAssistant$ErrorType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPErrorAssistant.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCDatabaseMetaData.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCDatabaseMetaData.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCQueryTransformType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCQueryTransformType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValueHandler.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValueHandler.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRRunnableWithProgress.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCStatement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/qm/QMController.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/qm/QMController.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCConnectException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCConnectException.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ext.wmi/target/classes
+     file: org/jkiss/dbeaver/ext/wmi/model/WMIClassAttribute.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.wmi/src
+     sourceFile: org/jkiss/dbeaver/ext/wmi/model/WMIClassAttribute.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/RuntimeUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/RuntimeUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: bundles/org.jkiss.wmi/target/classes
+     file: org/jkiss/wmi/service/WMIQualifier.class
+     sourceDir: bundles/org.jkiss.wmi/src/java
+     sourceFile: org/jkiss/wmi/service/WMIQualifier.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.ext.wmi/target/classes
+     file: org/jkiss/dbeaver/ext/wmi/model/WMIPropertySource.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.wmi/src
+     sourceFile: org/jkiss/dbeaver/ext/wmi/model/WMIPropertySource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSWrapper.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSWrapper.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/DBException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/DBException.java
+   - dir: plugins/org.jkiss.dbeaver.ext.wmi/target/classes
+     file: org/jkiss/dbeaver/ext/wmi/model/WMIClass.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.wmi/src
+     sourceFile: org/jkiss/dbeaver/ext/wmi/model/WMIClass.java
+   - dir: bundles/org.jkiss.wmi/target/classes
+     file: org/jkiss/wmi/service/WMIObjectAttribute.class
+     sourceDir: bundles/org.jkiss.wmi/src/java
+     sourceFile: org/jkiss/wmi/service/WMIObjectAttribute.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPImage.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPImage.java
+   - dir: plugins/org.jkiss.dbeaver.ext.wmi/target/classes
+     file: org/jkiss/dbeaver/ext/wmi/model/WMIClassElement.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.wmi/src
+     sourceFile: org/jkiss/dbeaver/ext/wmi/model/WMIClassElement.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSTypedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSTypedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: bundles/org.jkiss.wmi/target/classes
+     file: org/jkiss/wmi/service/WMIQualifiedObject.class
+     sourceDir: bundles/org.jkiss.wmi/src/java
+     sourceFile: org/jkiss/wmi/service/WMIQualifiedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBValueFormatting.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBValueFormatting.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/preferences/DBPPreferenceStore.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDDisplayFormat.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDDisplayFormat.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSTypedObjectEx.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSTypedObjectEx.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPImageProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPImageProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDBinaryFormatter.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDBinaryFormatter.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValue.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValue.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPImage.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPImage.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPNamedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPNamedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSTypedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSTypedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDDataFormatter.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDDataFormatter.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.image/target/classes
+     file: org/jkiss/dbeaver/ui/controls/imageview/ImageViewer.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.image/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/imageview/ImageViewer.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.image/target/classes
+     file: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.image/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.image/target/classes
+     file: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas$2.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.image/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.image/target/classes
+     file: org/jkiss/dbeaver/ui/controls/imageview/ImageViewer$1.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.image/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/imageview/ImageViewer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBeaverIcons.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBeaverIcons.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.image/target/classes
+     file: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas$4.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.image/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/OverlayImageDescriptorLegacy.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/OverlayImageDescriptorLegacy.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.image/target/classes
+     file: org/jkiss/dbeaver/ui/controls/imageview/ImageActionDelegate.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.image/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/imageview/ImageActionDelegate.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/OverlayImageDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/OverlayImageDescriptor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPImage.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPImage.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.image/target/classes
+     file: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas$3.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.image/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBIconBinary.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBIconBinary.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBIconComposite.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBIconComposite.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.image/target/classes
+     file: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.image/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas.java
+   - dir: plugins/org.jkiss.dbeaver.ui/target/classes
+     file: org/jkiss/dbeaver/ui/DBeaverIcons$IconDescriptor.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui/src
+     sourceFile: org/jkiss/dbeaver/ui/DBeaverIcons.java
+   - dir: plugins/org.jkiss.dbeaver.ui.editors.image/target/classes
+     file: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas$5.class
+     sourceDir: plugins/org.jkiss.dbeaver.ui.editors.image/src
+     sourceFile: org/jkiss/dbeaver/ui/controls/imageview/ImageViewCanvas.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSTableIndexColumn.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSTableIndexColumn.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValueHandlerProvider.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValueHandlerProvider.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityConstraintType.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityConstraintType.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityConstraint.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityConstraint.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSTable.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSTable.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDDataFilter.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDDataFilter.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDAttributeConstraintBase.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDAttributeConstraintBase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDBinaryFormatter.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDBinaryFormatter.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDContentStorage.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDContentStorage.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/VoidProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/ContentUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/ContentUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntity.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntity.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDAttributeBinding.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDAttributeBinding.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/Pair.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/Pair.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSTableForeignKeyColumn.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSTableForeignKeyColumn.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityReferrer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityReferrer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDContentCached.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDContentCached.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/IOUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/IOUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataKind.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataKind.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSTypedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSTypedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDAttributeConstraint.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDAttributeConstraint.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLSyntaxManager.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLSyntaxManager.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDContent.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDContent.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/app/DBPPlatform.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/app/DBPPlatform.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSTableForeignKey.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSTableForeignKey.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityAssociation.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityAssociation.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSTableIndex.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSTableIndex.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValueHandler.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValueHandler.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPQualifiedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPQualifiedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDRegistry.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDRegistry.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSAttributeBase.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSAttributeBase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDValue.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDValue.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/data/DBDPreferences.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/data/DBDPreferences.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPNamedObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPNamedObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSEntityAttributeRef.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSEntityAttributeRef.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCLogicalOperator.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCLogicalOperator.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/edit/DBEPersistAction.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/edit/DBEPersistAction.java
+ - target:
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/SQLServerUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/SQLServerUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log$Listener.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPDriver.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPDriver.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/runtime/DBRProgressMonitor.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/model/SQLServerDatabase.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/model/SQLServerDatabase.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSInstance.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSInstance.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSourceContainer.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSourceContainer.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/rdb/DBSForeignKeyModifyRule.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/rdb/DBSForeignKeyModifyRule.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/DBException.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/DBException.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/Pair.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/Pair.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCPreparedStatement.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCPreparedStatement.java
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/model/SQLServerObjectClass.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/model/SQLServerObjectClass.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/Log.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/Log.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCResultSet.java
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/model/SQLServerAuthentication.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/model/SQLServerAuthentication.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/jdbc/JDBCSession.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/utils/GeneralUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/utils/GeneralUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/model/SQLServerSchema.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/model/SQLServerSchema.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/ArrayUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/ArrayUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/impl/jdbc/JDBCDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/struct/DBSObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/struct/DBSObject.java
+   - dir: bundles/org.jkiss.utils/target/classes
+     file: org/jkiss/utils/CommonUtils.class
+     sourceDir: bundles/org.jkiss.utils/src
+     sourceFile: org/jkiss/utils/CommonUtils.java
+   - dir: plugins/org.jkiss.dbeaver.ext.mssql/target/classes
+     file: org/jkiss/dbeaver/ext/mssql/model/SQLServerObject.class
+     sourceDir: plugins/org.jkiss.dbeaver.ext.mssql/src
+     sourceFile: org/jkiss/dbeaver/ext/mssql/model/SQLServerObject.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/exec/DBCExecutionContext.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/exec/DBCExecutionContext.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLDialect.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLDialect.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/DBPDataSource.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/DBPDataSource.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/sql/SQLUtils.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/sql/SQLUtils.java
+   - dir: plugins/org.jkiss.dbeaver.model/target/classes
+     file: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.class
+     sourceDir: plugins/org.jkiss.dbeaver.model/src
+     sourceFile: org/jkiss/dbeaver/model/connection/DBPConnectionConfiguration.java
